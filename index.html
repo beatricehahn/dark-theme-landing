@@ -6,101 +6,204 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
-  <title>Frontend Mentor | Fylo landing page with dark theme and features grid</title>
+  <title>Fylo</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
-  Features
-  Team
-  Sign In
+    <div class="wrapper">
+      <header>
+        <nav>
+          <img src="./images/logo.svg" alt="Fylo logo">
+          <ul>
+            <li>Features</li>
+            <li>Team</li>
+            <li>Sign In</li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <section>
+          <!--alt tag left blank because it does not contribute any meaningful info-->
+          <img src="./images/illustration-intro.png" alt="">
+          <h1>
+            All your files in one secure location, accessible anywhere.
+          </h1>
+          <p>
+            Fylo stores all your most important files in one secure location. Access them wherever 
+            you need, share and collaborate with friends family, and co-workers.
+          </p>
+          <button>
+            Get Started
+          </button>
+        </section>
+        <ul>
+          <li>
+            <img src="./images/icon-access-anywhere.svg" alt="Picture of a phone in front of a laptop screen">
+            <div class="feature-text">
+              <h2>
+                Access your files, anywhere
+              </h2>
+              <p>
+                The ability to use a smartphone, tablet, or computer to access your account means your files follow you everywhere.
+              </p>
+            </div>
+          </li>
+          <li>
+            <img src="./images/icon-security.svg" alt="Picture of a security icon">
+            <div class="feature-text">
+              <h2>
+                Security you can trust
+              </h2>
+              <p>
+                2-factor authentication and user-controlled encryption are just a couple of the security features we allow to help secure your files.
+              </p>
+            </div>
+          </li>
+          <li>
+            <img src="./images/icon-collaboration.svg" alt="Collaboration Icon">
+            <div class="feature-text">
+              <h2>
+                Real-time collaboration
+              </h2>
+              <p>
+                Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required.
+              </p>
+            </div>
+          </li>
+          <li>
+            <img src="./images/icon-any-file.svg" alt="File Picture">
+            <div class="feature-text">
+              <h2>
+                Store any type of file
+              </h2>
+              <p>
+                Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all file types to be securely stored and shared.
+              </p>
+            </div>
+          </li>
+        </ul>
+        <section>
+          <img src="./images/illustration-stay-productive.png" alt="Productivity Illustration">
+          <h2>
+            Stay productive, wherever you are
+          </h2>
+          <p>
+            Never let location be an issue when accessing your files. Fylo has you covered for all of your file storage needs.
+          </p>
+          <p>
+            Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required.
+          </p>
+          <button>
+            See how Fylo works
+          </button>
+        </section>
+        <ul class="reviews">
 
-  All your files in one secure location, accessible anywhere.
+          <li class="reviewer">
+            <blockquote>
+              Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.
+            </blockquote>
+            <img src="./images/profile-1.jpg" alt="">
+            <div>
+              <span>
+                Satish Patel
+              </span>
+              <span>
+                Lead Product Designer, Visual X
+              </span>
+            </div>
+          </li>
 
-  Fylo stores all your most important files in one secure location. Access them wherever 
-  you need, share and collaborate with friends family, and co-workers.
+          <li class="reviewer">
+            <blockquote>
+              Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.
+            </blockquote>
+            <img src="./images/profile-2.jpg" alt="">
+            <div>
+              <span>
+                Bruce McKenzie
+              </span>
+              <span>
+                Senior Software Engineer, Remscope
+              </span>
+            </div>
+          </li>
 
-  Get Started
+          <li class="reviewer">
+            <blockquote>
+              Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.
+            </blockquote>
+            <img src="./images/profile-3.jpg" alt="">
+            <div>
+              <span>
+                Iva Boyd
+              </span>
+              <span>
+                Founder & CEO, Huddle
+              </span>
+            </div>
+          </li>
 
-  Access your files, anywhere
 
-  The ability to use a smartphone, tablet, or computer to access your account means your 
-  files follow you everywhere.
+        </ul>
+        <section class="action-call">
+          <h2>
+            Get early access today
+          </h2>
+          <p>
+            It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.
+          </p>
+          <input type="email" placeholder="email@example.com">
+          <button>
+            Get Started For Free
+          </button>
+        </section>
+      </main>
+      <footer>
+        <div class="contact-info">
+          <img src="./images/logo.svg" alt="Fylo logo">
+          <div class="location">
+            <img src="./images/icon-location.svg" alt="Location Icon">
+            <span>
+              United States
+            </span>
+          </div>
+          <div class="phone">
+            <img src="./images/icon-phone.svg" alt="Phone Icon">
+            <span>
+              +1-543-123-4567
+            </span>
+          </div>
+          <div class="fylo-email">
+            <img src="./images/icon-email.svg" alt="Email Icon">
+            <span>
+              contact@fylo.com
+            </span>
+          </div>
+        </div>
 
-  Security you can trust
-
-  2-factor authentication and user-controlled encryption are just a couple of the security 
-  features we allow to help secure your files.
-
-  Real-time collaboration
-
-  Securely share files and folders with friends, family and colleagues for live collaboration. 
-  No email attachments required.
-
-  Store any type of file
-
-  Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all 
-  file types to be securely stored and shared.
-
-  Stay productive, wherever you are
-
-  Never let location be an issue when accessing your files. Fylo has you covered for all of your file 
-  storage needs.
-
-  Securely share files and folders with friends, family and colleagues for live collaboration. No email 
-  attachments required.
-
-  See how Fylo works
-
-  Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
-  become a well-oiled collaboration machine.
-
-  Satish Patel
-  Founder & CEO, Huddle
-
-  Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
-  become a well-oiled collaboration machine.
-
-  Bruce McKenzie
-  Founder & CEO, Huddle
-
-  Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
-  become a well-oiled collaboration machine.
-
-  Iva Boyd
-  Founder & CEO, Huddle
-
-  Get early access today
-
-  It only takes a minute to sign up and our free starter tier is extremely generous. If you have any 
-  questions, our support team would be happy to help you.
-
-  Get Started For Free
-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
-  dolore magna aliqua
-
-  +1-543-123-4567
-  example@fylo.com
-
-  About Us
-  Jobs
-  Press
-  Blog
-
-  Contact Us
-  Terms
-  Privacy
-
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Beatrice Hahn</a>.
-    </p>
-  </footer>
+        <ul>
+          <li>About Us</li>
+          <li>Jobs</li>
+          <li>Press</li>
+          <li>Blog</li>
+        </ul>
+        
+        <ul>
+          <li>Contact Us</li>
+          <li>Terms</li>
+          <li>Privacy</li>
+        </ul>
+        <div class="social-media">
+          <img src="" alt="facebook icon">
+          <img src="" alt="twitter icon">
+          <img src="" alt="instagram icon">
+        </div>
+        <p class="attribution">
+          Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+          Coded by <a href="#">Beatrice Hahn</a>.
+        </p>
+      </footer>
+    </div>
 </body>
 </html>
