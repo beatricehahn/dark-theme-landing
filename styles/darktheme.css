@@ -38,19 +38,19 @@ body {
     padding-top: 3rem;
 }
 
+main {
+    text-align: center;
+}
+
 .wrapper {
-    padding-left: 5rem;
-    padding-right: 5rem;
+    padding-left: 5%;
+    padding-right: 5%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin: 0;
-    float: center;
 }
 
-.container {
-    text-align: center;
-}
 
 h1 {
     font-family: 'Raleway', sans-serif;
@@ -97,7 +97,7 @@ p {
 /* Main Body */
 
 .deco-pic {
-    width: 60%;
+    width: 80%;
     height: auto;
 }
 
@@ -120,8 +120,13 @@ p {
     margin-bottom: 5rem;
 }
 
-.stay-productive {
-    display: flex;
+.stay-productive img {
+    width: 85%;
+    height: auto;
+}
+
+.stay-productive p,
+.stay-productive a {
     text-align: left;
 }
 
@@ -184,9 +189,10 @@ p {
 .action-call {
     background: var(--color-intro-email-darkblue);
     border-radius: 7px;
-    margin-top: 16rem;
+    margin-top: 20rem;
     margin-bottom: 12rem;
-    padding: 1.5rem;
+    text-align: center;
+    padding: 3rem;
 }
 
 .action-email {
@@ -239,6 +245,8 @@ footer ul li {
     .wrapper {
         width: 80%;
         text-align: center;
+        padding-left: 5%;
+        padding-right: 5%;
     }
 }
 
@@ -246,7 +254,8 @@ footer ul li {
     .wrapper {
         width: 100%;
         text-align: center;
-        margin: 0;
+        padding-left: 10%;
+        padding-right: 10%;
     }
 
     .features {
@@ -256,7 +265,8 @@ footer ul li {
     }
 
     .action-call {
-        max-width: 700px;
+        text-align: center;
+        max-width: 750px;
     }
 
     .contact {
