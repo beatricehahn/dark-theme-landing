@@ -1,3 +1,4 @@
+/* General Styles*/
 :root {
     /* Primary */
     --color-intro-email-darkblue: hsl(217, 28%, 15%);
@@ -40,6 +41,7 @@ body {
     max-width: 1440px;
     padding-left: 35px;
     padding-right: 35px;
+    margin: 0;
 }
 
 h1 {
@@ -83,8 +85,10 @@ p {
     margin-left: 1rem;
 }
 
+/* Main Body */
+
 .deco-pic {
-    width: 90%;
+    width: 60%;
     height: auto;
 }
 
@@ -108,6 +112,7 @@ p {
 }
 
 .stay-productive {
+    display: flex;
     text-align: left;
 }
 
@@ -121,12 +126,18 @@ p {
     height: 20px;
 }
 
+.reviews {
+    display: flex;
+    justify-content: center;
+}
+
 .reviews li {
     background: var(--color-testimonial-darkblue);
     border-radius: 7px;
     padding: 20px;
     margin-top: 2rem;
     margin-bottom: 2.3rem;
+    max-width: 350px;
     text-align: left;
 }
 
@@ -177,6 +188,8 @@ p {
     padding: 10px 28px 10px 28px;
 }
 
+/* Footer */
+
 footer {
     text-align: left;
 }
@@ -208,4 +221,26 @@ footer ul li {
 .attribution a {
     color:var(--color-call-cyan);
     text-decoration: none;
+}
+
+/* Media Queries*/
+@media(min-width: 650px) {
+    .wrapper {
+        width: 70%;
+        text-align: center;
+    }
+}
+
+@media(min-width: 900px) {
+    .wrapper {
+        width: 95%;
+    }
+
+    .features {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
 }
